@@ -101,3 +101,31 @@ export {
   beforeUnloadHandler,
   loadHandler
 }
+//Event Handlers:
+
+// addTodoHandler Function:
+// รับค่าจาก input และเพิ่ม "Todo" ใหม่โดยใช้ addTodo.
+// แสดงผล "Todo" ใหม่ใน UI ด้วย showTodoItem.
+// เพิ่ม event listeners สำหรับปุ่ม "Not Done" และ "Remove" ด้วย addButtonHandler.
+// อัปเดตจำนวน "Done" และ "Not Done" ด้วย showNumberOfDone และ showNumberOfNotDone.
+// addButtonHandler Function:
+// เพิ่ม event listeners สำหรับปุ่ม "Not Done" และ "Remove" สำหรับ "Todo" ที่กำลังถูกเพิ่มเข้ามา.
+// notDoneButtonHandler Function:
+// เปลี่ยนสถานะของ "Todo" เป็น "Done" และปรับ UI ด้วย setdoneStyle.
+// อัปเดตจำนวน "Done" และ "Not Done" ด้วย showNumberOfDone และ showNumberOfNotDone.
+// setdoneStyle Function:
+// เปลี่ยนแปลงสไตล์ของปุ่ม "Not Done" เมื่อกดเป็นสีเขียว.
+// removeButtonHandler Function:
+// ลบ "Todo" ที่ถูกกดปุ่ม "Remove" ออกจาก UI และจากข้อมูลทั้งหมดโดยใช้ removeTodo และ removeTodoItem.
+// อัปเดตจำนวน "Done" และ "Not Done" ด้วย showNumberOfDone และ showNumberOfNotDone.
+// beforeUnloadHandler Function:
+
+// ทำการบันทึกข้อมูล "Todo" ลงใน localStorage เมื่อผู้ใช้ปิดหน้าต่างหรือออกจากเว็บไซต์.
+// loadHandler Function:
+
+// โหลดข้อมูล "Todo" จาก localStorage เมื่อหน้าเว็บได้โหลด.
+// แสดง "Todo" ทั้งหมดใน UI.
+// เพิ่ม event listener สำหรับปุ่ม "Add" และใช้งาน input ที่ถูกกด Enter.
+// Export:
+
+// ทำการ export ฟังก์ชันต่างๆเพื่อให้สามารถนำไปใช้ในส่วนอื่นของโค้ดได้.
